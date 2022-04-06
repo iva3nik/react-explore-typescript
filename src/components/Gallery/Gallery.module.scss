@@ -1,0 +1,10 @@
+.gallery {
+  &__cards {
+    padding-top: 10px;
+    width: 100%;
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(auto-fill, 305px);
+    justify-content: center;
+  }
+}
